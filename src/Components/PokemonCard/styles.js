@@ -7,7 +7,11 @@ export const Card = styled.div`
   max-width: 17rem;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 10px 10px 30px #bdbdbd;
+  box-shadow: 10px 10px 30px  #bdbdbd;
+  img{
+    height:180px;
+    width:200px;
+  }
 `;
 
 export const PokemonName = styled.h2`
@@ -27,5 +31,4 @@ export const EvolveButton = styled.button`
     border: none;
     cursor: pointer;
     box-shadow: 0 6px 30px -10px #000000;
-
 `
